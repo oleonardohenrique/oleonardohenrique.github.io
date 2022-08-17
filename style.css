@@ -2,6 +2,9 @@
     line-height: 40px;
     font-size: 20px;
 }
+body {
+    padding: 3%;
+}
 .titulos {
     color: aliceblue;
     font-style: italic;
@@ -23,4 +26,23 @@ body {
     color: aliceblue;
     font-style: italic;
     font-size: 28px;
+    text-align: center;
+}
+.image-container {
+    text-align: center;
+    height: 400px;
+    position: relative;
+}
+#img {
+    float: left;
+    width: 300px;
+    height: 380px;
+    padding: 10px;
+    background-color: rgb(35, 45, 187);
+}
+.desc {
+    position: absolute;
+    left: 20%;
+    top: 30%;
+    margin-left: 240px;
 }
